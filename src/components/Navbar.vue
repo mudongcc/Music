@@ -70,9 +70,12 @@
         <svg-icon icon-class="github" />
         {{ $t('nav.github') }}
       </div>
-      <div class="item" @click="toGitHub">
+      <div class="item" @click="todmusic">
         <svg-icon icon-class="github" />
         {{ $t('nav.github') }}
+      </div>
+      <div class="item" >
+        <a href="baidu.com">11111</a>
       </div>
     </ContextMenu>
   </div>
@@ -162,7 +165,10 @@ export default {
       this.$router.push({ name: 'settings' });
     },
     toGitHub() {
-      window.open('https://github.com/qier222/YesPlayMusic');
+      window.open('https://www.mudong.cc/');
+    },
+    todmusic() {
+      window.open('https://dmusic.mudong.cc/');
     },
     toLogin() {
       if (process.env.IS_ELECTRON === true) {
