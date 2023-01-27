@@ -66,15 +66,10 @@
         {{ $t('library.userProfileMenu.logout') }}
       </div>
       <hr />
-      <div>
-        <svg-icon icon-class="logout" />
-        <a href="dmusic.mudong.com">dmusic</a>
+      <div class="item" @click="toGitHub">
+        <svg-icon icon-class="github" />
+        {{ $t('nav.github') }}
       </div>
-      <div v-if="isLooseLoggedIn" class="item" @click="logout">
-        <svg-icon icon-class="logout" />
-        <a href="dmusic.mudong.com">dmusic.mudong.com</a>
-      </div>
-
     </ContextMenu>
   </div>
 </template>
@@ -164,15 +159,6 @@ export default {
     },
     toGitHub() {
       window.open('https://www.mudong.cc/');
-    },
-    toGitHub() {
-      window.open('https://www.mudong.cc/');
-    },
-    toGitHub() {
-      window.open('https://www.mudong.cc/');
-    },
-    todmusic() {
-      window.open('https://dmusic.mudong.cc/');
     },
     toLogin() {
       if (process.env.IS_ELECTRON === true) {
