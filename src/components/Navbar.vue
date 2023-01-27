@@ -66,21 +66,15 @@
         {{ $t('library.userProfileMenu.logout') }}
       </div>
       <hr />
-      <div class="item" @click="toGitHub">
-        <svg-icon icon-class="github" />
-        {{ $t('nav.github') }}
+      <div>
+        <svg-icon icon-class="logout" />
+        <a href="dmusic.mudong.com">dmusic</a>
       </div>
-      <div class="item" @click="todmusic">
-        <svg-icon icon-class="github" />
-        {{ $t('nav.github') }}
+      <div v-if="isLooseLoggedIn" class="item" @click="logout">
+        <svg-icon icon-class="logout" />
+        <a href="dmusic.mudong.com">dmusic.mudong.com</a>
       </div>
-      <div class="item" >
-        <a href="baidu.com">11111</a>
-      </div>
-      <div class="item" @click="toGitHub">
-        <svg-icon icon-class="github" />
-        {{ $t('nav.github') }}
-      </div>
+
     </ContextMenu>
   </div>
 </template>
