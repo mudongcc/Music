@@ -71,7 +71,7 @@
         {{ $t('nav.github') }}
       </div>
       <div class="item">
-        <a href="https://dmusic.mudong.cc/">全网音乐免费下载平台</a>
+        <a href="https://dmusic.mudong.cc/" target="_blank">全网音乐免费下载平台</a>
       </div>
     </ContextMenu>
   </div>
