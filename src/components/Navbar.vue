@@ -165,6 +165,12 @@ export default {
     toGitHub() {
       window.open('https://www.mudong.cc/');
     },
+    toGitHub() {
+      window.open('https://www.mudong.cc/');
+    },
+    toGitHub() {
+      window.open('https://www.mudong.cc/');
+    },
     todmusic() {
       window.open('https://dmusic.mudong.cc/');
     },
