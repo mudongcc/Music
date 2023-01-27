@@ -170,10 +170,10 @@ export function createMenu(win, store) {
       label: 'Help',
       submenu: [
         {
-          label: 'GitHub',
+          label: 'MuDong',
           click: async () => {
             const { shell } = require('electron');
-            await shell.openExternal('https://github.com/qier222/YesPlayMusic');
+            await shell.openExternal('https://www.mudong.cc/');
           },
         },
         {
