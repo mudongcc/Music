@@ -70,6 +70,9 @@
         <svg-icon icon-class="github" />
         {{ $t('nav.github') }}
       </div>
+      <div>
+        <p>111</p>
+      </div>
     </ContextMenu>
   </div>
 </template>
