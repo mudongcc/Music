@@ -71,7 +71,10 @@
         {{ $t('nav.github') }}
       </div>
       <div>
-        <p>111</p>
+        <a href="https://www.mudong.cc/">暮冬博客</a>
+      </div>
+      <div>
+        <a href="https://dmusic.mudong.cc/">全网音乐免费下载平台</a>
       </div>
     </ContextMenu>
   </div>
