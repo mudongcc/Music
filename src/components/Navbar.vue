@@ -77,6 +77,10 @@
       <div class="item" >
         <a href="baidu.com">11111</a>
       </div>
+      <div class="item" @click="toGitHub">
+        <svg-icon icon-class="github" />
+        {{ $t('nav.github') }}
+      </div>
     </ContextMenu>
   </div>
 </template>
