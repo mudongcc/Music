@@ -67,11 +67,7 @@
       </div>
       <hr />
       <div class="item" @click="toGitHub">
-        <svg-icon icon-class="github" />
         {{ $t('nav.github') }}
-      </div>
-      <div class="item">
-        <a href="https://dmusic.mudong.cc/">全网音乐免费下载平台</a>
       </div>
     </ContextMenu>
   </div>
